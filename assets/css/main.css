@@ -764,9 +764,36 @@ a:after {
 }
 
 .photo_price {
+    padding: 10px;
+    display: block;
+    width: 60%;
     text-align: center;
-        margin-left: 26px;
-    margin-right: 25px;
+
     margin-bottom: 20px;
 }
 
+
+.button_photo{
+   display: inline-flex;
+}
+.button_photo a{
+   padding: 3px;
+}
+
+
+.text_photo{
+    margin-top: 15px;
+    margin-right: 20px;
+    word-wrap: break-word;
+    width: 40%;
+}
+
+
+.inline_flex {
+  display: inline-flex;
+
+  }
+
+.thumbnail h3{
+    text-align: center;
+}
