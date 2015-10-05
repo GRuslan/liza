@@ -7,7 +7,7 @@
     <meta name="author" content="Carlos Alvarez - Alvarez.is - blacktie.co">
     <link rel="shortcut icon" href="assets/ico/favicon.png">
 
-    <title> SHIELD - Free Bootstrap 3 Theme</title>
+    <title> Кухні на замовлення</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -25,6 +25,24 @@
     
     <script src="assets/js/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
+
+	<script type="text/javascript" src="assets/js/jquery-1.4.3.min.js"></script>
+<script type="text/javascript" src="assets/js/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script type="text/javascript" src="assets/js/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/js/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$("a.photo").fancybox({
+			transitionIn: 'elastic',
+			transitionOut: 'elastic',
+			speedIn: 500,
+			speedOut: 500,
+			hideOnOverlayClick: false,
+			titlePosition: 'over'
+		});
+	});
+</script>
     
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -34,34 +52,29 @@
   </head>
 
   <body data-spy="scroll" data-offset="0" data-target="#navbar-main">
-	<div class="row">
-	<div class="col-md-1"></div>
-	  <div class="col-md-6">
-	  	<img src="assets/img/uzhnu.png" class="uzhnu-logo img-responsive" alt="Responsive image">
-	  	<h1>Ужгородський Національний Університет</h1>
-	  </div>	
-	  <div class="col-md-5">
-	  	<div class="flags">
-		  	<img src="assets/img/flags/ua.svg" class="flag" alt="Responsive image">
-		  	<img src="assets/img/flags/us.svg" class="flag" alt="Responsive image">
-		  	<img src="assets/img/flags/ru.svg" class="flag" alt="Responsive image">
-	  	</div>
-	  </div>
-	</div>
-    
-	</div>
     <div id="headerwrap" id="home" name="home">
 		<header class="clearfix">
-		 	<h1><span class="icon icon-shield"></span></h1>
-		 	<p>A Bootstrap 3 One Page Theme.</p>
-		 	<p>Exclusive for BlackTie.co.</p>
-  		</header>	    
-    </div><!-- /headerwrap -->
-
-	<div id="navbar-main">
-      <!-- Fixed navbar -->
-	    <div class="navbar ">
-	      <div class="container">
+            
+                <div id="schedule_and_tel">
+		           <h2> <img src="assets/img/tel.png"> +380961813909</h2>	      
+		 	       <h1>GL DESIGN HOME</h1>
+               </div>
+                 <div id="block1">
+                     <p>Авторські кухні на замовлення за індивідуальним проектом від 7499 грн. за метр</p>
+                 </div>
+            
+            <div id="feedback">
+                <p>Замовити виїзд дизайнера </p><br>
+                <input type="text" size="50" id="name" placeholder="Ваше ім'я"><br>
+                <input type="text" size="50" id="email" placeholder="Ваш Email"><br>
+                <input type="tel"  size="50" id="tel" placeholder="Ваш номер телефону"><br>
+                <button id="post">Отримати знижку</button>
+                
+                 
+            </div>
+            	   
+		 	 <div class="navbar ">
+	  
 	        <div class="navbar-header">
 	          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 	            <span class="icon icon-shield" style="font-size:30px; color:#3498db;"></span>
@@ -71,16 +84,22 @@
 	        <div class="navbar-collapse collapse">
 	          <ul class="nav navbar-nav">
 	            <li><a href="#home" class="smoothScroll">Головна</a></li>
-				<li> <a href="#about" class="smoothScroll"> Про нас</a></li>
-				<li> <a href="#services" class="smoothScroll"> Послуни</a></li>
-				<li> <a href="#team" class="smoothScroll"> Співробітники</a></li>
-				<li> <a href="#portfolio" class="smoothScroll"> Portfolio</a></li>
-				<li> <a href="#blog" class="smoothScroll"> Blog</a></li>
+				<li> <a href="#about" class="smoothScroll"> Про компанію</a></li>
+				<li> <a href="#services" class="smoothScroll">Як замовити</a></li>
+				
+				<li> <a href="#portfolio" class="smoothScroll"> Галерея</a></li>
+				
 				<li> <a href="#contact" class="smoothScroll"> Контакти </a></li>
 	        </div><!--/.nav-collapse -->
-	      </div>
+	      
 	    </div>
-    </div>
+            
+  		</header>
+
+  	    
+    </div><!-- /headerwrap -->
+
+
 
 		<!-- ==== ABOUT ==== -->
 		<div class="container" id="about" name="about">
@@ -101,59 +120,59 @@
 		
 		<!-- ==== GREYWRAP ==== -->
 		<div id="greywrap" name="services">
-			<h1 class="centered">НАШІ ПОСЛУГИ</h1>
+			<h1 class="centered">Як замовити?</h1>
 			<hr>
 			<br>
 			<br>
 			<div class="row">
 				<div class="col-lg-3 callout">
 					<span class="icon icon-stack"></span>
-					<h2>Bootstrap 3</h2>
-					<p>Shield Theme is powered by Bootstrap 3. The incredible Mobile First Framework is the best option to run your website. </p>
+					<h2>1 етап</h2>
+					<p>Якщо Вас цікавить орієнтовна вартість виготовлення корпусних меблів з МДФ , ДСП або інша інформація Ви можете зателефонувати нашим менеджерам </p>
 				</div><!-- col-lg-4 -->
 					
 				<div class="col-lg-3 callout">
 					<span class="icon icon-eye"></span>
-					<h2>Retina Ready</h2>
-					<p>You can use this theme with your iPhone, iPad or MacBook Pro. This theme is retina ready and that is awesome. </p>
+					<h2>2 етап</h2>
+					<p>Якщо Вас все влаштовує Ви можете домовитись про виклик дизайнера для точного заміру, в дизайнера будуть усі необхідні зразки,в межах Львова виїзд є безкоштовним. </p>
 				</div><!-- col-lg-4 -->	
 				
 				<div class="col-lg-3 callout">
 					<span class="icon icon-heart"></span>
-					<h2>Crafted with Love</h2>
-					<p>We don't make sites, we craft themes with love & passion. That is our most valued secret. We only do thing that we love.   </p>
+					<h2>3 етап</h2>
+					<p>Дизайнер-конструктор надасть Вам повну консультацію  </p>
 				</div><!-- col-lg-4 -->	
 
 				<div class="col-lg-3 callout">
 					<span class="icon icon-heart"></span>
-					<h2>Crafted with Love</h2>
-					<p>We don't make sites, we craft themes with love & passion. That is our most valued secret. We only do thing that we love.   </p>
+					<h2>4 етап</h2>
+					<p>Дизайнер підготує креслення для майбутніх корпусних меблів відповідно до Ваших побажань та зробить візуалізацію в PRO100 або 3D Max   </p>
 				</div><!-- col-lg-4 -->	
 			</div><!-- row -->
 
 			<div class="row">
 				<div class="col-lg-3 callout">
 					<span class="icon icon-stack"></span>
-					<h2>Bootstrap 3</h2>
-					<p>Shield Theme is powered by Bootstrap 3. The incredible Mobile First Framework is the best option to run your website. </p>
+					<h2>5 етап</h2>
+					<p>Узгоджуємо, вибираємо і затверджуємо матаріали та проект </p>
 				</div><!-- col-lg-4 -->
 					
 				<div class="col-lg-3 callout">
 					<span class="icon icon-eye"></span>
 					<h2>Retina Ready</h2>
-					<p>You can use this theme with your iPhone, iPad or MacBook Pro. This theme is retina ready and that is awesome. </p>
+					<p>Якщо знову ж таки Вас все влаштовує складаємо договір, передоплата на виготовлення меблів становить 40-50% від загальної вартості виробу. Можливе придбання у кредит, а також оплати замовлення по перерахунку з відшкодуванням ПДВ . </p>
 				</div><!-- col-lg-4 -->	
 				
 				<div class="col-lg-3 callout">
 					<span class="icon icon-heart"></span>
 					<h2>Crafted with Love</h2>
-					<p>We don't make sites, we craft themes with love & passion. That is our most valued secret. We only do thing that we love.   </p>
+					<p>Монтаж здійснюється від 7 – 30 робочих днів( в залежності від складності виробу)   </p>
 				</div><!-- col-lg-4 -->	
 
 				<div class="col-lg-3 callout">
 					<span class="icon icon-heart"></span>
 					<h2>Crafted with Love</h2>
-					<p>We don't make sites, we craft themes with love & passion. That is our most valued secret. We only do thing that we love.   </p>
+					<p>Після монтажу меблів та завершення робіт проводиться кінцевий розрахунок </p>
 				</div><!-- col-lg-4 -->	
 			</div><!-- row -->
 		</div><!-- greywrap -->
@@ -168,50 +187,15 @@
 		</section><!-- section -->
 		<br>
 		<br>
-		<!-- ==== TEAM MEMBERS ==== -->
-		<div class="container" id="team" name="team">
-			<br>
-			<div class="row centered">
-				<h1 class="centered">Наші співробітники</h1>
-				<hr>
-				<br>
-				<br>
-				<div class="col-lg-3 centered">
-					<img src="assets/img/team/kostenko.jpg"alt="">
-					<h4><b>Костенко Євген Якович</b></h4>
-					<p>Декан факультету, доктор медичних наук, доцент</p>
-				</div><!-- col-lg-3 -->
-				
-				<div class="col-lg-3">
-					<img src="assets/img/team/kostenko.jpg"alt="">
-					<h4><b>Костенко Євген Якович</b></h4>
-					<p>Декан факультету, доктор медичних наук, доцент</p>
-				</div><!-- col-lg-3 -->
-
-				<div class="col-lg-3 centered">
-					<img src="assets/img/team/kostenko.jpg"alt="">
-					<h4><b>Костенко Євген Якович</b></h4>
-					<p>Декан факультету, доктор медичних наук, доцент</p>
-				</div><!-- col-lg-3 -->
-
-				<div class="col-lg-3 centered">
-					<img src="assets/img/team/kostenko.jpg"alt="">
-					<h4><b>Костенко Євген Якович</b></h4>
-					<p>Декан факультету, доктор медичних наук, доцент</p>
-				</div><!-- col-lg-3 -->
-			</div><!-- row -->
-		</div><!-- container -->
 		
-		<br>
-		<br>
-		<br>
+		
 				
 		<!-- ==== PORTFOLIO ==== -->
 		<div class="container" id="portfolio" name="portfolio">
 		<br>
 			<div class="row">
 				<br>
-				<h1 class="centered">Наш факультет</h1>
+				<h1 class="centered">ГАЛЕРЕЯ</h1>
 				<hr>
 				<br>
 				<br>
@@ -219,172 +203,62 @@
 			<div class="container">
 			<div class="row">	
 			
-				<!-- PORTFOLIO IMAGE 1 -->
-				<div class="col-md-4 ">
-			    	<div class="grid mask">
-						<figure>
-							<img class="img-responsive" src="assets/img/portfolio/folio01.jpg" alt="">
-							<figcaption>
-								<h5>DASHBOARD</h5>
-								<a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Take a Look</a>
-							</figcaption><!-- /figcaption -->
-						</figure><!-- /figure -->
-			    	</div><!-- /grid-mask -->
-				</div><!-- /col -->
-				
-				
-						 <!-- MODAL SHOW THE PORTFOLIO IMAGE. In this demo, all links point to this modal. You should create
-						      a modal for each of your projects. -->
-						      
-						  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-						    <div class="modal-dialog">
-						      <div class="modal-content">
-						        <div class="modal-header">
-						          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-						          <h4 class="modal-title">Project Title</h4>
-						        </div>
-						        <div class="modal-body">
-						          <p><img class="img-responsive" src="assets/img/portfolio/folio01.jpg" alt=""></p>
-						          <p>This project was crafted for Some Name corp. Detail here a little about your job requirements and the tools used. Tell about the challenges faced and what you and your team did to solve it.</p>
-						          <p><b><a href="#">Visit Site</a></b></p>
-						        </div>
-						        <div class="modal-footer">
-						          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-						        </div>
-						      </div><!-- /.modal-content -->
-						    </div><!-- /.modal-dialog -->
-						  </div><!-- /.modal -->
-				
-				
-				<!-- PORTFOLIO IMAGE 2 -->
-				<div class="col-md-4">
-			    	<div class="grid mask">
-						<figure>
-							<img class="img-responsive" src="assets/img/portfolio/folio02.jpg" alt="">
-							<figcaption>
-								<h5>UI DESIGN</h5>
-								<a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Take a Look</a>
-							</figcaption><!-- /figcaption -->
-						</figure><!-- /figure -->
-			    	</div><!-- /grid-mask -->
-				</div><!-- /col -->
-				
-				<!-- PORTFOLIO IMAGE 3 -->
-				<div class="col-md-4">
-			    	<div class="grid mask">
-						<figure>
-							<img class="img-responsive" src="assets/img/portfolio/folio03.jpg" alt="">
-							<figcaption>
-								<h5>ANDROID PAGE</h5>
-								<a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Take a Look</a>
-							</figcaption><!-- /figcaption -->
-						</figure><!-- /figure -->
-			    	</div><!-- /grid-mask -->
-				</div><!-- /col -->
-			</div><!-- /row -->
+				<div class="gallery">
+<a rel="gallery" class="photo" href="assets/img/gallery_img/big/01.jpg" title="Картинка 1"><img src="assets/img/gallery_img/small/01.jpg" width="150" height="100" alt="" /></a>
+<a rel="gallery" class="photo" href="assets/img/gallery_img/big/02.jpg" title="Картинка 2"><img src="assets/img/gallery_img/small/02.jpg" width="150" height="100" alt="" /></a>
+<a rel="gallery" class="photo" href="assets/img/gallery_img/big/03.jpg" title="Картинка 3"><img src="assets/img/gallery_img/small/03.jpg" width="150" height="100" alt="" /></a>
+<a rel="gallery" class="photo" href="assets/img/gallery_img/big/04.jpg" title="Картинка 4"><img src="assets/img/gallery_img/small/04.jpg" width="150" height="100" alt="" /></a>
+<a rel="gallery" class="photo" href="assets/img/gallery_img/big/05.jpg" title="Картинка 5"><img src="assets/img/gallery_img/small/05.jpg" width="150" height="100" alt="" /></a>
+<a rel="gallery" class="photo" href="assets/img/gallery_img/big/06.jpg" title="Картинка 6"><img src="assets/img/gallery_img/small/06.jpg" width="150" height="100" alt="" /></a>
+<a rel="gallery" class="photo" href="assets/img/gallery_img/big/07.jpg" title="Картинка 7"><img src="assets/img/gallery_img/small/07.jpg" width="150" height="100" alt="" /></a>
+<a rel="gallery" class="photo" href="assets/img/gallery_img/big/08.jpg" title="Картинка 8"><img src="assets/img/gallery_img/small/08.jpg" width="150" height="100" alt="" /></a>
+<a rel="gallery" class="photo" href="assets/img/gallery_img/big/09.jpg" title="Картинка 9"><img src="assets/img/gallery_img/small/09.jpg" width="150" height="100" alt="" /></a>
+                    
 
-				<!-- PORTFOLIO IMAGE 4 -->
-			<div class="row">	
-				<div class="col-md-4 ">
-			    	<div class="grid mask">
-						<figure>
-							<img class="img-responsive" src="assets/img/portfolio/folio04.jpg" alt="">
-							<figcaption>
-								<h5>PROFILE</h5>
-								<a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Take a Look</a>
-							</figcaption><!-- /figcaption -->
-						</figure><!-- /figure -->
-			    	</div><!-- /grid-mask -->
-				</div><!-- /col -->
-				
-				<!-- PORTFOLIO IMAGE 5 -->
-				<div class="col-md-4">
-			    	<div class="grid mask">
-						<figure>
-							<img class="img-responsive" src="assets/img/portfolio/folio05.jpg" alt="">
-							<figcaption>
-								<h5>TWITTER STATUS</h5>
-								<a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Take a Look</a>
-							</figcaption><!-- /figcaption -->
-						</figure><!-- /figure -->
-			    	</div><!-- /grid-mask -->
-				</div><!-- /col -->
-				
-				<!-- PORTFOLIO IMAGE 6 -->
-				<div class="col-md-4">
-			    	<div class="grid mask">
-						<figure>
-							<img class="img-responsive" src="assets/img/portfolio/folio06.jpg" alt="">
-							<figcaption>
-								<h5>PHONE MOCKUP</h5>
-								<a data-toggle="modal" href="#myModal" class="btn btn-primary btn-lg">Take a Look</a>
-							</figcaption><!-- /figcaption -->
-						</figure><!-- /figure -->
-			    	</div><!-- /grid-mask -->
-				</div><!-- /col -->
-			</div><!-- /row -->
+<a rel="gallery1" class="photo" href="assets/img/gallery_img/big/10.jpg" title="Картинка 10"><img src="assets/img/gallery_img/small/10.jpg" width="150" height="100" alt="" /></a>
+<a rel="gallery1" class="photo" href="assets/img/gallery_img/big/11.jpg" title="Картинка 11"><img src="assets/img/gallery_img/small/11.jpg" width="150" height="100" alt="" /></a>
+<a rel="gallery1" class="photo" href="assets/img/gallery_img/big/12.jpg" title="Картинка 12"><img src="assets/img/gallery_img/small/12.jpg" width="150" height="100" alt="" /></a>
+<a rel="gallery1" class="photo" href="assets/img/gallery_img/big/13.jpg" title="Картинка 13"><img src="assets/img/gallery_img/small/13.jpg" width="150" height="100" alt="" /></a>
+<a rel="gallery1" class="photo" href="assets/img/gallery_img/big/14.jpg" title="Картинка 14"><img src="assets/img/gallery_img/small/14.jpg" width="150" height="100" alt="" /></a>
+</div>
+</div>
 			<br>
 			<br>
 		</div><!-- /row -->
 	</div><!-- /container -->
 
 		<!-- ==== SECTION DIVIDER4 ==== -->
-		<section class="section-divider textdivider divider4">
+		<section>
 			<div class="container">
-				<h1>DESIGN CREATES EMOTIONAL CONNECTION</h1>
-				<hr>
-				<p>There’s more to design than meets the eye. It’s when it meets the heart that design creates a meaningful, lasting connection with the audience.</p>
+				<div class="row">
+  <div class="col-sm-6 col-md-10">
+    <div class="thumbnail">
+        <div class="photo_price">
+        <h3>Ярлик ескізу</h3>
+      <a rel="gallery1" class="photo" href="assets/img/gallery_img/big/10.jpg" title="Картинка 10"><img src="assets/img/gallery_img/small/10.jpg" width="300" height="200" alt="" /></a>
+            </div>
+      <div class="text_photo" >
+        
+        <h1>HHHHHHHHH</h1>
+        
+      </div>
+    </div>
+  </div>
+                      <div class="col-sm-6 col-md-10">
+    <div class="thumbnail">
+      <a rel="gallery1" class="photo" href="assets/img/gallery_img/big/10.jpg" title="Картинка 10"><img src="assets/img/gallery_img/small/10.jpg" width="150" height="100" alt="" /></a>
+      <div class="caption">
+        <h3>Ярлик ескізу</h3>
+        <p>...</p>
+        <p><a href="#" class="btn btn-primary" role="button">Кнопка</a> <a href="#" class="btn btn-default" role="button">Кнопка</a></p>
+      </div>
+    </div>
+  </div>
+</div>
 			</div><!-- container -->
 		</section><!-- section -->
 		
-		<!-- ==== BLOG ==== -->
-		<div class="container" id="blog" name="blog">
-		<br>
-			<div class="row">
-				<br>
-				<h1 class="centered">WE ARE STORYTELLERS</h1>
-				<hr>
-				<br>
-				<br>
-			</div><!-- /row -->
-			
-			<div class="row">
-				<div class="col-lg-6 blog-bg">
-					<div class="col-lg-4 centered">
-					<br>
-						<p><img class="img img-circle" src="assets/img/team/team04.jpg" width="60px" height="60px"></p>
-						<h4>Jaye Smith</h4>
-						<h5>Published Aug 30.</h5>
-					</div>
-					<div class="col-lg-8 blog-content">
-						<h2>We Define Success</h2>
-						<p>Armed with insight, we embark on designing the right brand experience that engages the audience. It encompasses both the strategic direction and creative execution that solves a business problem and brings the brand to life.</p>
-						<p>In the create phase, the big idea is unleashed to the world through different media touchpoints. This is when we watch the audience fall in love all over again with our client’s brand.</p>
-						<p><a href="#" class="icon icon-link"> Read More</a></p>
-						<br>
-					</div>
-				</div><!-- /col -->
-				
-				<div class="col-lg-6 blog-bg">
-					<div class="col-lg-4 centered">
-					<br>
-						<p><img class="img img-circle" src="assets/img/team/team03.jpg" width="60px" height="60px"></p>
-						<h4>Michele Lampa</h4>
-						<h5>Published Aug 28.</h5>
-					</div>
-					<div class="col-lg-8 blog-content">
-						<h2>A Beautiful Story</h2>
-						<p>Armed with insight, we embark on designing the right brand experience that engages the audience. It encompasses both the strategic direction and creative execution that solves a business problem and brings the brand to life.</p>
-						<p>In the create phase, the big idea is unleashed to the world through different media touchpoints. This is when we watch the audience fall in love all over again with our client’s brand.</p>
-						<p><a href="#" class="icon icon-link"> Read More</a></p>
-						<br>
-					</div>
-				</div><!-- /col -->
-			</div><!-- /row -->
-			<br>
-			<br>
-		</div><!-- /container -->
-
+		
 		
 		<!-- ==== SECTION DIVIDER6 ==== -->
 		<section class="section-divider textdivider divider6">
